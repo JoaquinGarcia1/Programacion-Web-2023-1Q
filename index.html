@@ -5,58 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programación Web</title>
+    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>LOGOTIPO</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Historia</a></li>
-            </ul>
+        <h2 class="logo">logotipo</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="#">ALGO</a>
+            <a href="#">ALGO</a>
+            <a href="#">ALGO</a>
+            <label for="check" class="esconder-menu">
+                &#215
+    
+            </label>
+    
         </nav>
     </header>
-    <main>
-        <h2>Subtítulo</h2>
-        <h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis rhoncus est. Phasellus efficitur, leo et placerat mollis, ligula arcu tempor diam, vitae suscipit ligula ligula ac quam. Curabitur eu metus vel ex auctor condimentum. Etiam sodales neque fringilla rhoncus faucibus. Duis faucibus ligula ligula, vitae consequat nibh ullamcorper id. Nulla eu mauris nec purus bibendum lobortis volutpat ac velit. Nullam ante nisi, volutpat eget nulla non, vehicula bibendum ante. Vestibulum ornare arcu eu ante scelerisque, tincidunt consequat tortor feugiat. Proin interdum lorem et erat laoreet laoreet. Praesent pretium turpis vel rutrum placerat. Nulla congue ipsum sit amet sapien luctus, id hendrerit ipsum varius. Vestibulum massa diam, imperdiet vel pharetra porttitor, ullamcorper condimentum odio. Integer consequat ultrices euismod. Etiam sed nisl in purus malesuada condimentum.
+    <section id="banner">
+        <div class="contenido-banner">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ratione dolorum dolores rem, cupiditate odit reiciendis placeat vero ex consequuntur, fugiat recusandae odio ab excepturi quasi, beatae officiis et omnis. Nobis illum, voluptatibus provident libero eos qui possimus porro quos explicabo quod distinctio eligendi, ea corporis eveniet! Totam, vero quod.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, doloremque, hic iusto sed cum beatae ad accusamus dolor necessitatibus tempora delectus, unde ab debitis commodi quis officiis libero nam inventore quia. Similique a officiis fugiat at et laboriosam reiciendis temporibus in earum! Fugiat reiciendis sint quam aspernatur vel, dicta quod?</p>
+            <br>
+            <a href="#" class="boton-info">Mas info</a>
+        </div>
+    </section>
+    <section id="dividido">
+        <div>
+            <img src="IMG/pexels-photo-14734608.jpeg" alt="">
+            <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus facere officia tenetur cumque rerum veritatis labore ab quidem ipsa?</p>
+            <a href="#" class="boton-info-section">Mas info</a>
+        </div>
+        <div>
+            <img src="IMG/pexels-photo-16654873.jpeg" alt="">
+            <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus facere officia tenetur cumque rerum veritatis labore ab quidem ipsa?</p>
+            <a href="#" class="boton-info-section">Mas info</a>
+        </div>
+    </section>
 
-            Etiam ut diam ligula. Aliquam leo magna, mattis sit amet tincidunt id, tempor quis leo. Ut consectetur porta quam. Nullam id dui euismod, lobortis ante id, faucibus eros. Duis non dolor ac mauris viverra iaculis. Nullam ut convallis elit, in pharetra elit.
-        </p></h3>
-        <br>
-        <br>
-        <h2>Subtítulo</h2>
-        <h3><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet atque velit, maiores pariatur nam sunt suscipit animi eaque reiciendis minus quo labore nemo. Qui impedit dicta facilis sed officiis.</p></h3>
-       <br>
-       <br>
-        <h2>Subtítulo</h2>
-        <h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, natus nesciunt iure molestiae in rem minus quaerat perspiciatis rerum asperiores eveniet cumque suscipit accusamus quasi deserunt nemo nostrum sequi provident!</p></h3>
- </main>
-    <footer>
-       <div class="box_footer">
-        <h2>Contacto</h2>
-        <nav class="contacto">
-            <ul>
-                <li><a href="#">Trabajo@programacionweb.com.ar</a></li>
-                <li><a href="#">Tel: 11 1234 5678</a></li>
-            </ul>
-        </nav>
-       </div>
-       <br>
-       <div class="box_footer1">
-        <h2>Redes Sociales</h2>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Instagram</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">Twitter</a>
-                </li>
-            </ul>
-        </nav>
-       </div>
-    </footer>
+    <section id="redes">
+        <div id="contenido-redes">
+           <div>
+            <a href="#"><i class="fa-brands fa-instagram fa-4x" id="boton-redes"></i></a>
+           </div>
+           <div>
+            <a href="#"><i class="fa-brands fa-facebook fa-4x" id="boton-redes"></i></a>
+           </div>
+           <div>
+            <a href="#"><i class="fa-brands fa-twitter fa-4x" id="boton-redes"></i></a>
+           </div>
+        </div>
+    </section>
 </body>
 </html>
-<link rel="stylesheet" href="style.css">
